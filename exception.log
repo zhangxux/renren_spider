@@ -1,0 +1,16 @@
+
+Tue Dec  1 12:47:49 2015'HTTPResponse' object has no attribute 'clsoe'
+Tue Dec  1 12:48:19 2015name 'soup' is not defined
+
+
+Tue Dec  1 13:16:44 2015name 're' is not defined
+Tue Dec  1 13:17:24 2015'NoneType' object has no attribute 'strip'
+Tue Dec  1 13:28:50 2015
+Tue Dec  1 13:55:15 2015name 'coutnyid' is not defined
+Tue Dec  1 14:20:12 2015object of type 'NoneType' has no len()
+Tue Dec  1 14:28:05 2015object of type 'NoneType' has no len()
+Tue Dec  1 14:31:02 2015object of type 'NoneType' has no len()
+Tue Dec  1 14:35:48 2015object of type 'NoneType' has no len()
+Tue Dec  1 14:48:24 2015'gbk' codec can't encode character '\u200e' in position 23: illegal multibyte sequence
+
+select p.name,c.name ,co.name from provinces as p left join cities as c on p.id=c.province_id left join counties as co on c.id=co.city_id;
